@@ -11,6 +11,8 @@ play();
 function play() {
   const randomNum = generateRandomNumber();
 
+  console.log(randomNum);
+
   const terminal = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
